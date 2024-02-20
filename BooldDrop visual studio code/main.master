@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="JS/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="JS/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="CSS/maincss.css" rel="stylesheet" type="text/css" />
+    <script src="JS/loginout.js" type="text/javascript"></script>
+    <script src="JS/dashboard.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    <div id="headerdiv">       
+     <div id="headercontent">
+      Blood Donor
+     </div>
+    </div>    
+    <div id="divdash" runat="server">
+     
+    </div>
+     <div id="divlogin" runat="server">
+     <table id="t1_log" runat="server">
+      <tr>
+       <td>[<asp:LinkButton ID="lb_login" Text="Login" runat="server" 
+               onclick="lb_login_Click"></asp:LinkButton>]</td>
+       <td>[<asp:LinkButton ID="lb_newuser" Text="New User" runat="server" 
+               onclick="lb_newuser_Click"></asp:LinkButton>]</td>
+      </tr>
+     </table>
+     <div>
+     <span id="spanwelcome" style="width:auto;" runat="server"></span>     
+     <div id="divlogout" style="display:none;">
+      <table id="tablelogout">
+       <tr>
+        <td>
+          <asp:LinkButton ID="LB_Dashboard" runat="server" Text="Dashboard" OnClick="LB_Dashboard_Click"></asp:LinkButton>
+        </td>
+        </tr>
+        <tr>
+        <td>
+          <asp:LinkButton ID="lnkbutton_signout" runat="server" Text="Logout" OnClick="lnkbutton_signout_Click"></asp:LinkButton>
+        </td>
+       </tr>
+      </table>
+     </div>
+     </div>
+    </div>
+    <div id="divmenu">
+      <ul>
+       <li><asp:LinkButton  ID="lbhome" runat="server" OnClick="lbhome_Click" Text="Home"></asp:LinkButton></li>
+       <li><asp:LinkButton  ID="lbaboutus" runat="server" OnClick="lbaboutus_Click" Text="AboutUS"></asp:LinkButton ></li>
+       <li><asp:LinkButton  ID="lbbloodbank" runat="server" OnClick="lbbloodbank_Click" Text="Blood Banks"></asp:LinkButton ></li>
+       <li><asp:LinkButton  ID="lbsearchdonar" runat="server" OnClick="lbsearchdonar_Click" Text="Find Donor"></asp:LinkButton ></li>
+       <li><asp:LinkButton  ID="lbcontactus" runat="server" OnClick="lbcontactus_Click" Text="ContactUs"></asp:LinkButton ></li>
+      </ul>
+     </div>
+    <div id="divcph">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="divfooter">
+     <div><p style="text-align:center;"> copyright@2018 CODER BABA</p></div>
+    </div>
+    </form>
+</body>
+</html>

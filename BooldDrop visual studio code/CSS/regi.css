@@ -1,0 +1,120 @@
+﻿
+.table
+{
+    width:500px;
+    border-collapse:collapse;    
+    padding:20px;
+    margin:-20px 0px 0px 50px;
+}
+.table, td
+{
+    padding:5px;
+    /*border:1px groove;*/
+}
+
+/*  Register
+--------------------------------------------------*/
+.btn_reg_Register
+{
+    background:#0066cc;
+    color:#fff;
+    padding:10px 20px 10px 20px;
+    font-weight:bold;
+    border:1px solid #0066cc;
+    height:35px;
+    width:150px;
+}
+.btn_reg_Register:hover
+{
+    background:Green;
+    color:#fff;
+    padding:10px 20px 10px 20px;
+    font-weight:bold;
+    border:1px solid #000000;
+}
+
+.txt
+{
+    width:300px;
+    padding:5px 10px 5px 10px;
+    background:#fafafa;
+     position:relative;
+}
+.txtvalidation
+{    
+    width:300px;
+    padding:5px 10px 5px 10px;
+    background:#fafafa;
+    border:1px solid Red;
+}
+.txt_name
+{
+    background:#fafafa; 
+    width:123px; 
+    padding:5px 15px 5px 15px;
+}
+.ddl_dob
+{
+    padding:5px 10px 5px 10px; 
+    background:#fafafa; 
+    width:103px;
+}
+.ddl_sec_ques
+{
+    padding:5px 10px 5px 10px; 
+    background:#fafafa; 
+    width:322px;
+}
+
+.a_login
+{
+    color:#0066cc;
+    text-decoration:none;
+    font-weight:bold;
+}
+.a_login:hover
+{
+    color:Green;
+    text-decoration:none;
+    font-weight:bold;
+}
+.btn_Login
+{
+    background:linear-gradient(#0066cc, #6699cc);
+    color:#fff;
+    padding:10px 20px 10px 20px;
+    font-weight:bold;
+    border:1px solid #0066cc;
+    height:35px;
+    width:100px;
+}
+.btn_Login:hover
+{
+    background:linear-gradient(#6699cc, #0066cc);;
+    color:#fff;
+    padding:10px 20px 10px 20px;
+    font-weight:bold;
+    border:1px solid #0066cc;
+}
+ #span
+ {
+     margin:-10% 0px 0px 30px;
+     color:Red;
+     font-size:2.5em;
+     font-family:Bodoni MT Times New Roman Segoe UI;
+     position:absolute;
+     vertical-align:top;
+     text-align:left;
+ }
+ /*
+------------ Validation CSS --------
+*/
+ .div_error
+      {          
+        margin:-40px 50px 10px 50px;        
+        color: #D8000C;
+        background-color: #FFBABA;
+        border:1px solid #D8000C;
+        width:320px;       
+        padding:10px;
+      }     

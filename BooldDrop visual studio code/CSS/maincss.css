@@ -1,0 +1,192 @@
+﻿body 
+{
+    font-family:Times New Roman Tahoma Segoe UI;    
+    background-color:Maroon;
+}
+/*
+   ------ Header ------Background Color
+*/
+#headerdiv, #divfooter, #headercontent, #headercontent:hover
+{
+    background:#141414;
+}
+#headerdiv
+{
+    width:1366px;
+    margin:-10px 5px 0px -8px;
+}
+
+#headercontent, #headercontent:hover
+{
+    padding:20px 0px 20px 16px;
+    font-size:4em;
+}
+#headercontent, #headercontent:hover
+{
+    color:Yellow;
+    width:25%;
+    
+}
+
+#headercontent:hover
+{
+    color:#fafafa;
+}
+/*
+---------------------------------------- Sign in -------------------------------------------------------
+*/
+#divlogin
+{
+    float:right;
+    width:200px;
+}
+#divlogin table
+{    
+    margin:10px 0px 0px -30px;
+}
+#divlogin table tr td, #lb_login, #lb_newuser
+{    
+    color:#ffffff;
+    font-weight:bold;
+}
+#lb_login:hover, #lb_newuser:hover
+{    
+    color:Yellow;
+    font-weight:bold;    
+}
+#spanwelcome
+{
+    margin:15px 0px 0px -30px;
+    position:absolute;
+    color:#fafafa;
+    font-weight:bold;
+    top: 100px;
+    left: 87%;
+    height: 19px;
+    width: 4px;
+    display:inline;
+}
+#divlogout
+{
+    display:block;
+    padding:10px 50px 10px 50px;
+    background:#dddddd;    
+    z-index:1000;
+    position:absolute;
+    top:160px;
+    right:70px;
+}
+#tablelogout
+{
+    border-collapse:collapse;
+}
+#tablelogout td
+{
+    padding:10px;    
+}
+#lnkbutton_signout, #LB_Dashboard
+{  
+   text-decoration:none;   
+}
+#lnkbutton_signout:hover, #LB_Dashboard:hover
+{
+    color:#ff0000;
+    text-decoration:underline;    
+}
+
+#divdash
+{
+    margin:15px 0px 0px -30px;
+    position:absolute;
+    top: 105px;
+    left: 75%;
+}
+#divdash #LB_Dashboard
+{    
+    color:#0080FF;
+    text-decoration:none;
+    font-size:1.6em;
+    font-weight:bold;
+}
+#divdash #LB_Dashboard:hover
+{    
+    color:#ffffff;
+}
+
+/*
+  -------------------------------- menu -----------------------------------------------------
+*/
+#divmenu
+{
+    width:90%;
+    background:darkblue;    
+    -webkit-border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;    
+    -moz-border-top-left-radius:20px;
+    -moz-border-top-right-radius:20px;  
+    -o-border-top-left-radius:20px;
+    -o-border-top-right-radius:20px;
+    margin:50px -50px 0px 50px;
+    position:absolute;
+}
+#divmenu ul
+{
+    width:auto;
+    padding:15px 20px 15px 20px;
+}
+#divmenu ul li
+{
+    list-style-type:none;
+    display:inline;
+    padding:5px 7px 5px 7px;
+}
+#divmenu ul li a
+{
+    color:#fafafa;
+    background:darkblue;
+    padding:7px 15px 7px 15px;
+    text-decoration:none;    
+    font-weight:bolder;
+}
+#divmenu ul li a:hover
+{
+    background:darkblue;
+    padding:7px 15px 7px 15px;
+    text-decoration:none;    
+    font-weight:bolder;
+    color:red;
+}
+
+/*
+  ---- Content Place Holder 
+*/
+#divcph
+{
+    
+    width:90%;
+    height:850px;
+    background-color:#ffffff;
+    margin:120px 20px 0px 50px;    
+    border-top:5px solid darkblue;
+    position:absolute;
+}
+
+/*
+-------------Main Content Holder
+*/
+#ContentPlaceHolder1
+{
+    padding:15px 30px 15px 30px;
+}
+
+
+/*
+----- Footer --- 
+*/
+#divfooter
+{
+    width:1346px;
+    margin:82% 5px -30px -8px;
+    padding:10px 10px 30px 10px;
+    color:#ffffff;
+}

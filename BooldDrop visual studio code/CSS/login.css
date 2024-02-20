@@ -1,0 +1,86 @@
+﻿#divloginpage
+     {
+         position:absolute;
+         display:block;
+         top:120px;
+         left:400px;
+     }
+     #tableloginpage
+     {
+         border-collapse:collapse;
+         width:400px;
+     }
+     #tableloginpage th
+     {
+         border:1px solid Maroon;
+         background-color:Maroon;
+         padding:7px 10px 7px 10px;
+         color:#ffffff;
+         text-align:left;
+         font-family:Tahoma Segoe UI Bernard MT Condensed Bodoni MT Black;
+         font-size:1.2em;
+     }
+     #td1, #td2     
+     {
+         border:1px solid Maroon;
+         background-color:#dddddd;
+         padding:3px 7px 3px 7px;
+         color:#141414;
+         width:120px;
+         font-weight:bold;
+     }
+     #td3, #td4
+     {
+         border:1px solid Maroon; 
+         padding:7px 10px 7px 10px;   
+         width:200px;     
+     }
+     #td5
+     {
+         border:1px solid Maroon;
+         padding:7px 10px 7px 10px;
+     }
+     .btnlogin
+     {
+         border:2px solid #006699;
+         background-color:#006699;
+         color:#ffffff;
+         padding:3px 5px 3px 5px;
+         font-weight:bold;
+     }
+     .btnlogin:hover
+     {
+         border:2px solid #6699cc;
+         background-color:#6699cc;
+         color:#ffffff;
+     }
+     .txtbox
+     {
+         width:231px;
+         padding:5px;
+         margin-top:-6px;
+         margin-right:-50px;
+         margin-left:-9px;
+         margin-bottom:-6px;         
+     }
+     .chkremember
+     {
+         position:absolute;
+         left:10px;
+         color:#343434;
+         font-weight:bold;
+     }
+/*
+------------ Validation CSS --------
+*/
+ .div_error
+      {          
+        margin:-40px 50px 10px 50px;        
+        color: #D8000C;
+        background-color: #FFBABA;
+        border:1px solid #D8000C;
+        width:320px;       
+        padding:10px;
+         top:100px;
+         left:400px;
+      }    

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Country>
+  <State>
+    <Name>panjab att</Name>
+    <City>attock</City>
+    <Language>panjabi</Language>
+  </State>
+  <State>
+    <Name>panjab rawal</Name>
+    <City>rawalpindi</City>
+    <Language>urdu</Language>
+  </State>
+  <State>
+    <Name>panjab islam</Name>
+    <City>islamabed</City>
+    <Language>urdu</Language>
+  </State>
+  <State>
+    <Name>Sind hydr</Name>
+    <City>Hadrabad</City>
+    <Language>urdu</Language>
+  </State>
+  <State>
+    <Name>panjab laho</Name>
+    <City>lahore</City>
+    <Language>saraki</Language>
+  </State>
+  <State>
+    <Name>kpk</Name>
+    <City>yallok</City>
+    <Language>pashtto</Language>
+  </State>
+  <State>
+    <Name>Balochistan qut</Name>
+    <City>Quetta</City>
+    <Language>urdu</Language>
+  </State>
+  <State>
+    <Name>Balochistan chan</Name>
+    <City>Chandigarh</City>
+    <Language>Hindi</Language>
+  </State>
+  <State>
+    <Name>Balochistan tur</Name>
+    <City>turbat</City>
+    <Language>Hindi and panjabi</Language>
+  </State>
+  <State>
+    <Name>Balochistan cham</Name>
+    <City>Chaman</City>
+    <Language>Pashtoo and urdu</Language>
+  </State>
+  <State>
+    <Name>Jammu and Kashmir</Name>
+    <City>Srinagar</City>
+    <Language>Kashmiri</Language>
+  </State>
+  <State>
+    <Name>sind kara</Name>
+    <City>karachi</City>
+    <Language>urdu and english</Language>
+  </State>
+  <State>
+    <Name>sind</Name>
+    <City>hyderabad</City>
+    <Language>sindi</Language>
+  </State>
+  <State>
+    <Name>sind</Name>
+    <City>sukkar</City>
+    <Language>urdu</Language>
+  </State>
+  <State>
+    <Name>kpk</Name>
+    <City>Bhopal</City>
+    <Language>pasttoo Hindi</Language>
+  </State>
+  <State>
+    <Name>panjab pindi</Name>
+    <City>pindi gheb</City>
+    <Language>panjabi</Language>
+  </State>
+  <State>
+    <Name>panjab abtt</Name>
+    <City>Abttabad</City>
+    <Language>urdu Manipuri</Language>
+  </State>
+  <State>
+    <Name>Uttarakhand</Name>
+    <City>DehraDun</City>
+    <Language>Hindi</Language>
+  </State>
+  <State>
+    <Name>West Bengal</Name>
+    <City>Kolkata</City>
+    <Language>Bengali</Language>
+  </State>
+</Country>  

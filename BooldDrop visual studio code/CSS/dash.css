@@ -1,0 +1,126 @@
+﻿.btnpost
+     {
+         border:2px solid #6699cc;
+         background:#6699cc;
+         padding:5px 15px 5px 15px;
+         color:#ffffff;
+         font-weight:bold;
+         top:160px;
+         position:absolute;
+         display:block;
+         left: 40px;
+     }
+     .btnpost:hover
+     {
+         border:2px solid Orange;
+         background:Orange;
+     }
+
+/*
+    Dashboard Right Hand Side MenuBar
+*/
+#divdashmenu
+{
+   position:absolute;
+   top:10px;
+   right:80px;
+}
+#ulmenu
+{
+    width:350px;
+}
+#ulmenu li 
+{
+    list-style-type:none;
+    line-height:200%;
+    margin:30px 0px;
+}
+#ulmenu li a
+{     
+   background:#6699cc;  
+   text-decoration:none;
+   color:#fafafa;
+   display:block;
+   padding:3px 60px;
+}
+#ulmenu li a:hover
+{    
+   background:#006699;   
+   text-decoration:none;
+}
+
+/*
+------------- Status Post CSS
+*/
+.getstatuscontainer
+{
+    background-color:#dddddd;
+    color:#343434;
+    border:1px solid #fafafa;
+    height:100px;
+    width:600px;
+    padding:5px 10px;
+    margin:30px 0px;
+    border-radius:20px;
+}
+.spandate
+{
+    float:right;
+    font-weight:bold;
+    color:#848484;
+    padding:3px;
+}
+.divstatusmessage
+{
+    padding:10px;
+    margin:5px 0px;
+}
+.spanstatusmessage
+{
+    color:#141414;
+}
+.txt
+{
+   padding:7px 13px 8px 10px;   
+   width:358px;
+         margin-top:-10px;
+         margin-right:-50px;
+         margin-left:-9px;
+         margin-bottom:-10px;  
+   font-size:.9em;
+}
+.aedit
+{
+   background:#dddddd;
+   color:#0000cc;
+   text-decoration:none;
+   float:left;
+   padding:5px 10px;
+}
+.aedit:hover
+{
+   color:#cc0000;
+}
+
+/*
+ ------------- ACCOUNT ---------------
+*/
+#tableaccount, #tablebloodbank
+{
+    border-collapse:collapse;
+    width:600px;
+    padding:0px 15px;
+    margin:10px 20px;
+}
+#tableaccount tr td:nth-child(1), #tablebloodbank tr td:nth-child(1)
+{
+    border:1px solid #dddddd;
+    padding:10px 20px;
+    background:#fafafa;
+    width:170px;
+}
+#tableaccount tr td:nth-child(2), #tablebloodbank tr td:nth-child(2)
+{
+    border:1px solid #dddddd;
+    padding:5px 10px;
+}
